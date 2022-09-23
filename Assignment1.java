@@ -4,8 +4,6 @@ public class Assignment1
 {
      public static void main(String []args)
      {
-        //Take input from the user
-        //Create an instance of the Scanner Class
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the first number");
         int num1=sc.nextInt();
@@ -14,7 +12,6 @@ public class Assignment1
         System.out.println("Before Swapping numbers are: ");
         System.out.println("The first Number is "+num1);
         System.out.println("The second Number is "+num2);
-        //Use a temporary variable to swap the numbers
         int temp=num1;
         num1=num2;
         num2=temp;
